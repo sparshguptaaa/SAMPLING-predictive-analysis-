@@ -1,19 +1,39 @@
-# SAMPLING-predictive-analysis-
-its a sampling technique where we used five sampling method to train five models on credit card dataset
+# Credit Card Fraud Detection using Sampling Techniques and Machine Learning
 
+## 📌 Project Overview
+This project demonstrates the application of **five different sampling techniques** combined with **five machine learning models** on a **credit card transaction dataset**.  
+The goal is to analyze how different sampling strategies influence model performance and to identify the most effective sampling–model combinations.
 
-Best sampling per model:
+This repository is designed to be **educational, reproducible, and beginner-friendly**, allowing any user to follow the same workflow and recreate the results.
 
-Logistic Regression → Sampling5
+---
 
-Decision Tree → Sampling5
+## 🎯 Objectives
+- Handle class imbalance in a credit card dataset  
+- Apply multiple **probabilistic sampling techniques**  
+- Train multiple **machine learning models**  
+- Compare performance using accuracy  
+- Identify the best sampling technique for each model  
 
-Random Forest → Sampling5 (100% accuracy)
+---
 
-KNN → Sampling5
+## 📂 Dataset Description
+- **Dataset**: Credit Card Transactions  
+- **Target Variable**: `Class`  
+  - `0` → Normal transaction  
+  - `1` → Fraudulent transaction  
+- The dataset was first **balanced** before applying sampling methods.
 
-SVM → Sampling3 (slightly better than others)
+---
 
-👉 Conclusion:
-Sampling5 performs best overall, especially for tree-based models.
-<img width="567" height="515" alt="output" src="https://github.com/user-attachments/assets/0b2d3d7a-6511-4691-8167-92694345b046" />
+## 🔁 Overall Workflow
+
+```mermaid
+flowchart TD
+    A[Load Credit Card Dataset] --> B[Balance Dataset]
+    B --> C[Apply 5 Sampling Techniques]
+    C --> D[Split into Train/Test Sets]
+    D --> E[Train 5 ML Models]
+    E --> F[Evaluate Accuracy]
+    F --> G[Compare Results]
+    G --> H[Final Conclusion]
