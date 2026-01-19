@@ -16,3 +16,4 @@ SVM → Sampling3 (slightly better than others)
 
 👉 Conclusion:
 Sampling5 performs best overall, especially for tree-based models.
+<img width="567" height="515" alt="output" src="https://github.com/user-attachments/assets/0b2d3d7a-6511-4691-8167-92694345b046" />
